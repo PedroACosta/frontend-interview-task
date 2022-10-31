@@ -3,7 +3,11 @@
   --io-color-bg-text: hsl(300, 32%, 8%);
   --io-color-bg-text-subtle: hsl(300, 10%, 37%);
 
+  --io-color-column-bg: hsl(240, 6%, 90%);
   --io-color-card-bg: hsl(0, 0%, 100%);
+
+  --io-color-scroll-thumb: hsl(0, 0%, 50%);
+  --io-color-scroll-track: hsl(0, 0%, 66%);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -12,6 +16,10 @@
     --io-color-bg-text: hsl(0, 0%, 100%);
     --io-color-bg-text-subtle: hsl(0, 0%, 80%);
 
+    --io-color-column-bg: hsl(240, 4%, 16%);
     --io-color-card-bg: hsl(0, 0%, 0%);
+
+    --io-color-scroll-thumb: hsl(0, 0%, 66%);
+    --io-color-scroll-track: hsl(0, 0%, 50%);
   }
 }

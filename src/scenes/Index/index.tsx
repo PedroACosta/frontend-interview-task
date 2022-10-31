@@ -19,6 +19,7 @@ export function Index() {
   return (
     <div className={styles.container}>
       <Column>
+        <h2 className={styles.title}>To do</h2>
         {data.jobs
           .filter((it) => it.status === Status.ToDo)
           .map((it) => (
@@ -26,6 +27,7 @@ export function Index() {
           ))}
       </Column>
       <Column>
+        <h2 className={styles.title}>In progress</h2>
         {data.jobs
           .filter((it) => it.status === Status.InProgress)
           .map((it) => (
@@ -33,6 +35,7 @@ export function Index() {
           ))}
       </Column>
       <Column>
+        <h2 className={styles.title}>Done</h2>
         {data.jobs
           .filter((it) => it.status === Status.Done)
           .map((it) => (

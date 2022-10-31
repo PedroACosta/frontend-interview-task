@@ -2,4 +2,8 @@
   display: flex;
   flex-direction: column;
   flex: 1;
+  gap: 14px;
+  padding: 14px;
+  background-color: var(--io-color-column-bg);
+  overflow-y: auto;
 }
