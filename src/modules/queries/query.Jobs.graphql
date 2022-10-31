@@ -3,6 +3,7 @@ query Jobs {
   jobs {
     id
     status
+    name
     createdAt
   }
 }
