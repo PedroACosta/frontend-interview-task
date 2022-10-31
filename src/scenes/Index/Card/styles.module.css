@@ -7,6 +7,9 @@
 .title {
   font-weight: 500;
   font-size: 1.1rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .subtitle {
