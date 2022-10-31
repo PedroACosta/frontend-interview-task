@@ -6,7 +6,7 @@ import styles from "./styles.module.css";
 
 type Props = Omit<JobsQuery["jobs"][number], "__typename">;
 
-export function Card({ name, status, createdAt }: Props) {
+export function Card({ name, createdAt }: Props) {
   return (
     <article className={styles.container}>
       <h3 className={styles.title} title={name}>
@@ -18,7 +18,6 @@ export function Card({ name, status, createdAt }: Props) {
           timeStyle: "short",
         }).format(DateTime.fromISO(createdAt).toJSDate())}
       </div>
-      <div>{status}</div>
     </article>
   );
 }

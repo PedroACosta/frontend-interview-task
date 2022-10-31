@@ -2,3 +2,8 @@
   display: flex;
   flex-direction: row;
 }
+
+.title {
+  font-size: 1.25rem;
+  color: var(--io-color-bg-text);
+}
